@@ -239,6 +239,11 @@ export const androidTVDefaultSources: IElementConfig[] = [
 		icon: 'mdi:spotify',
 	},
 	{
+		name: 'stan', // A streaming service in Australia
+		tap_action: { action: 'source', source: 'au.com.stan.and' },
+		icon: 'stan',
+	},
+	{
 		name: 'starplus',
 		tap_action: { action: 'source', source: 'https://www.starplus.com' },
 		icon: 'starplus',
