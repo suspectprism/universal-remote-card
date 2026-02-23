@@ -124,7 +124,7 @@ export const androidTVDefaultSources: IElementConfig[] = [
 	},
 	{
 		name: 'nebula',
-		tap_action: { action: 'source', source: 'https://nebula.tv' }, // UNTESTED
+		tap_action: { action: 'source', source: 'tv.standard.nebula' }, // Opens app in store, doesn't launch
 		icon: 'nebula',
 	},
 	{
